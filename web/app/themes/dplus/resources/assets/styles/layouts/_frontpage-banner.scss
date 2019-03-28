@@ -1,0 +1,19 @@
+// vars
+$hbanner: 30rem;
+$bgbanner: chocolate;
+$colorbanner: white;
+
+.banner {
+  height: $hbanner;
+  width: 100%;
+  background: $bgbanner;
+  color: $colorbanner;
+}
+//mq
+@include media-breakpoint-up(md) {
+  $hbanner: 40rem;
+
+  .banner {
+    height: $hbanner;
+  }
+}
