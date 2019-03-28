@@ -3,6 +3,11 @@
 /** Import everything from autoload */
 @import "./autoload/**/*";
 
+// import icons
+$zmdi-font-path: "~material-design-iconic-font/dist/fonts";
+
+@import "~material-design-iconic-font/scss/material-design-iconic-font";
+
 /**
  * Import npm dependencies
  *
@@ -23,3 +28,6 @@
 @import "layouts/pages";
 @import "layouts/posts";
 @import "layouts/tinymce";
+// custom
+@import "layouts/frontpage-banner";
+@import "layouts/frontpage-services"

@@ -1,0 +1,18 @@
+// vars
+$colorservices: white;
+$bgservices: pink;
+
+// section
+.services {
+  @extend .simple-section;
+
+  background: $bgservices;
+  color:$colorservices;
+}
+
+// service
+.wrap-service {
+  & .zmdi {
+    font-size: 15rem;
+  }
+}
