@@ -1,0 +1,13 @@
+// vars
+$colorportfolio: white;
+$bgportfolio: blue;
+
+// section
+.portfolio {
+  @extend .simple-section;
+
+  // override padding-bottom of @extend
+  padding-bottom: 1rem !important;
+  background: $bgportfolio;
+  color: $colorportfolio;
+}
