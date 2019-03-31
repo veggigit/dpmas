@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col">
                 <h2 class="text-center">Últimos proyectos</h1>
-                    <p class="lead text-center">Bajada killer para proyectos</p>
+                <p class="lead text-center">Bajada killer para proyectos</p>
             </div>
         </div>
     </div>
