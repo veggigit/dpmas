@@ -1,4 +1,4 @@
-<div class="portfolio">
+<div id="portfolio" class="portfolio">
     <div class="container">
         <div class="row">
             <div class="col">

@@ -1,4 +1,4 @@
-<div class="banner">
+<div id="mainbanner" class="banner">
     <div class="container h-100">
         <div class="row h-100 justify-content-center align-items-center">
             <div class="col">

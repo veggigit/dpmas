@@ -1,7 +1,11 @@
-.banner .nav li {
-  @extend .nav-item;
+.navbar {
+  transition: all 0.5s ease;
+  
+  & .dpmas-brand img {
+    width: 200px;
+  }
 }
 
-.banner .nav a {
-  @extend .nav-link;
+.scrolled {
+  background: blueviolet;
 }
