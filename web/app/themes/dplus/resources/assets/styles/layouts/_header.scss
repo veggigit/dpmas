@@ -1,11 +1,33 @@
 .navbar {
   transition: all 0.5s ease;
+
+  & .dpmas-brand {
+    max-width: 85px;
+    overflow: hidden;
+  }
   
   & .dpmas-brand img {
-    width: 200px;
+    width: 160px;
   }
+
 }
 
 .scrolled {
   background: blueviolet;
+}
+
+@include media-breakpoint-up(md) {
+
+  .navbar {
+  
+    & .dpmas-brand {
+      max-width: 200px;
+    }
+    
+    & .dpmas-brand img {
+      width: 200px;
+    }
+  
+  }
+
 }
