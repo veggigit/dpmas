@@ -1,6 +1,6 @@
 // vars
 $hbanner: 30rem;
-$bgbanner: chocolate;
+$bgbanner: black;
 $colorbanner: white;
 
 .banner {
@@ -8,10 +8,39 @@ $colorbanner: white;
   width: 100%;
   background: $bgbanner;
   color: $colorbanner;
+  position: relative;
+  overflow: hidden;
+
+  & > .container {
+    position: relative;
+    z-index: 3;
+  }
+
+  & #videoBG {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+  }
+
+  & .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.1) url('images/grid.png') repeat;
+  }
+
 }
 //mq
 @include media-breakpoint-up(md) {
-  $hbanner: 40rem;
+  $hbanner: 48rem;
 
   .banner {
     height: $hbanner;
