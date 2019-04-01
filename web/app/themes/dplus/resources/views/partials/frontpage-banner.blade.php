@@ -6,11 +6,12 @@
 
     <div class="overlay"></div>
 
-    <div class="container h-100">
-        <div class="row h-100 justify-content-center align-items-center">
-            <div class="col">
-                <h1 class="text-center">Somos dpmas, la productora lider del sur de Chile</h1>
-                <p class="lead text-center">Tus eventos serán recordados</p>
+    <div class="container-fluid h-100">
+        <div class="row h-100 justify-content-center">
+            <div class="col my-auto text-center">
+                <h1>¡Haz que tu evento sea inolvidable!</h1>
+                <p class="lead">Dpmas producciones, lleva tu evento al siguiente nivel.</p>
+                <a href="#" class="btn btn-primary btn-lg mt-3">Cotiza con nosotros</a>
             </div>
         </div>
     </div>

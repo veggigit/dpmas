@@ -1,4 +1,4 @@
-<div id="services" class="services">
+<div id="services" class="services bg-primary">
     <div class="container">
         <div class="row">
             <div class="col">
@@ -32,4 +32,5 @@
             </div>
         </div>
     </div>
+    {{-- <img class="wave" src="@asset('images/wave2.svg')" alt=""> --}}
 </div>
