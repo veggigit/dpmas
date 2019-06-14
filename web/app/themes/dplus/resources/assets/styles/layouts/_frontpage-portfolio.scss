@@ -10,4 +10,46 @@ $bgportfolio: blue;
   padding-bottom: 1rem !important;
   background: $bgportfolio;
   color: $colorportfolio;
+
+  .work {
+    width: 100%;
+    position: relative;
+    @extend .bg-primary;
+    margin-bottom: 20px;
+
+    & .work-img {
+      width: inherit;
+      object-fit: cover;
+      object-position: center;
+      position: absolute;
+      z-index: 0;
+    }
+
+    & .work-excerpt {
+      position: absolute;
+      z-index: 200;
+      left: 0;
+      bottom: 25px;
+      @extend .px-3;
+    }
+  }
+
+  .col-md-6 .work {
+    height: 450px;
+
+    & .work-img {
+      height: inherit;
+    }
+  }
+
+  
+  .col-md-12 .work {
+    height: 650px;
+
+    & .work-img {
+      height: inherit;
+    }
+  }
+
+
 }

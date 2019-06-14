@@ -1,40 +1,42 @@
 <div id="portfolio" class="portfolio">
     <div class="container">
         <div class="row">
-            <div class="col">
+            <div class="col-12">
                 <h2 class="text-center">Últimos proyectos</h1>
-                <p class="lead text-center">Bajada killer para proyectos</p>
+                    <p class="lead text-center">Bajada killer para proyectos</p>
             </div>
-        </div>
-    </div>
 
-    <div class="container-fluid">
-        <div class="card-columns">
-            <!-- item -->
-            <div class="card">
-                <img class="card-img" src="https://picsum.photos/500/300" alt="Card image">
+            <div class="w-100"></div>
+            {{-- item --}}
+            <div class="col-12 col-md-6">
+                <div class="work">
+                    <img class="work-img" src="@asset('images/ex01.jpg')" alt="Card image">
+                    <div class="work-excerpt">
+                        <span class="work-cat">#categoria</span>
+                        <h2 class="work-title">Titulo del work</h2>
+                    </div>
+                </div>
             </div>
-            <!-- item -->
-            <div class="card">
-                <img class="card-img" src="https://picsum.photos/250/400" alt="Card image">
+            {{-- item --}}
+            <div class="col-12 col-md-6">
+                <div class="work">
+                    <img class="work-img" src="@asset('images/ex02.jpg')" alt="Card image">
+                    <div class="work-excerpt">
+                        <span class="work-cat">#categoria</span>
+                        <h2 class="work-title">Titulo del work</h2>
+                    </div>
+                </div>
             </div>
-            <!-- item -->
-            <div class="card">
-                <img class="card-img" src="https://picsum.photos/200/300" alt="Card image">
-            </div>
-            <!-- item -->
-            <div class="card">
-                <img class="card-img" src="https://picsum.photos/400/250" alt="Card image">
-            </div>
-            <!-- item -->
-            <div class="card">
-                <img class="card-img" src="https://picsum.photos/400/470" alt="Card image">
-            </div>
-            <!-- item -->
-            <div class="card">
-                <img class="card-img" src="https://picsum.photos/500/250" alt="Card image">
+            {{-- item --}}
+            <div class="col-12 col-md-12">
+                <div class="work">
+                    <img class="work-img" src="@asset('images/ex03.jpg')" alt="Card image">
+                    <div class="work-excerpt">
+                        <span class="work-cat">#categoria</span>
+                        <h2 class="work-title">Titulo del work</h2>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
-    <!-- NOTE agregar boton load more-->
 </div>

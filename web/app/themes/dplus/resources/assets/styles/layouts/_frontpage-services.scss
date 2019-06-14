@@ -10,19 +10,37 @@ $colorservices: white;
   & .wave {
     width: auto;
     height: 80px;
-    top: - 80px;
+    top: -80px;
     position: absolute;
     z-index: 5;
     right: 0;
   }
 
   // background: $bgservices;
-  color:$colorservices;
+  color: $colorservices;
 }
 
 // service
 .wrap-service {
-  & .zmdi {
-    font-size: 15rem;
+    margin-bottom: 3rem;
+    
+  & .feather {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 1rem;
   }
+
+}
+
+@include media-breakpoint-up(md) {
+
+    .wrap-service {
+
+      & .feather {
+        width: 80px;
+        height: 80px;
+      }
+    
+    }
+
 }
