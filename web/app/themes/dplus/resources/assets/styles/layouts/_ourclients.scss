@@ -1,0 +1,30 @@
+.ourclients {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+
+  & h1, h2 {
+      @extend .text-white;
+    // FIXME Estandarizar margin de titulo de secciones
+      margin-bottom: 1.4rem;
+  }
+
+  & .client-logo {
+    width: 100%;
+    overflow: hidden;
+    // FIXME agregar last-child style
+    margin-bottom: 1rem;
+    @extend .mx-auto;
+
+    & img {
+      @extend .img-fluid;
+    }
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  .ourclients {
+    & .client-logo {
+      width: 75%;
+    }
+  }
+}

@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h2 class="text-center">Servicios</h1>
+                <h2 class="text-center">Servicios</h2>
                     <p class="lead text-center">Bajada killer para servicios</p>
             </div>
             <div class="w-100"></div>
