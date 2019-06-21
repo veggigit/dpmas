@@ -1,5 +1,7 @@
 // IMPORT ICONS
 const feather = require('feather-icons')
+// IMPORT GLIDE
+import Glide from '@glidejs/glide'
 
 export default {
   init() {
@@ -21,6 +23,9 @@ export default {
       var $nav = $('#nav-dpmas');
       $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     });
+
+    // GLIDE CAROUSEL BANNER COMPONENTS
+    new Glide('.glide').mount()
 
 
   },

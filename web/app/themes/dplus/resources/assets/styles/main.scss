@@ -32,3 +32,8 @@
 @import "layouts/frontpage-portfolio";
 @import "layouts/frontpage-contact";
 @import "layouts/ourclients";
+@import "components/carouselBanner";
+
+// glide module
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import "node_modules/@glidejs/glide/src/assets/sass/glide.theme";
